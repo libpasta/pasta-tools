@@ -1,0 +1,17 @@
+[package]
+name = "pasta-tools"
+version = "0.1.0"
+authors = ["Sam Scott <sam.scott89@gmail.com>"]
+
+[dependencies]
+argon2rs = { version = "0.2" }
+cargon = "*"
+clap = "2.23"
+libpasta = { git = "https://github.com/libpasta/libpasta" }
+optimization = "0.1"
+sys-info = "0.4"
+time = "0.1.36"
+
+[[bin]]
+name = "tune"
+path = "src/tune.rs"
